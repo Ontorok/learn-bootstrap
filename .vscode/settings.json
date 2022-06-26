@@ -1,0 +1,7 @@
+{
+    "workbench.colorTheme": "Learn with Sumit - Peace of the eye",
+    "editor.fontFamily": "JetBrains Mono,Fira Code,Operator Mono",
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+
+}
