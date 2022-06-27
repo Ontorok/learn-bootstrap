@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Card</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+</head>
+
+<body>
+
+  <!-- Container start -->
+  <div class="container border border-1 border-warning p-1">
+    <h5 class="text-center">Basic Card</h5>
+    <hr class="my-3">
+    <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="../images/cardmage.jpg" alt="JS Image">
+      <div class="card-body">
+        <h5 class="card-title">Card Title</h5>
+        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, autem!</p>
+        <a href="#" class="btn btn-primary">Go some where</a>
+      </div>
+    </div>
+  </div>
+
+  <br>
+
+  <div class="container border border-1 border-warning p-1">
+    <h5 class="text-center">Card Titles, text, and links</h5>
+    <hr class="my-3">
+    <div class="card" style="width: 18rem;">
+      <div class="card-body">
+        <h5 class="card-title">Card Title</h5>
+        <h6 class="card-subtitle text-muted  mb-2">Sub Title</h6>
+        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, autem!</p>
+        <a href="#" class="card-link">Card Link</a>
+        <a href="#" class="card-link">Card Link</a>
+      </div>
+    </div>
+  </div>
+
+  <br>
+
+  <div class="container border border-1 border-warning p-1">
+    <h5 class="text-center">Card with List Group</h5>
+    <hr class="my-3">
+    <div class="card" style="width: 18rem;">
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">An item</li>
+        <li class="list-group-item">A second item</li>
+        <li class="list-group-item">A third item</li>
+      </ul>
+      <div class="card-footer">
+        Card Footer
+      </div>
+    </div>
+  </div>
+
+  <br>
+
+  <div class="container border border-1 border-warning p-1">
+    <h5 class="text-center">Kitchen Sink</h5>
+    <hr class="my-3">
+    <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="../images/cardmage.jpg" alt="JS Image">
+      <div class="card-body">
+        <h5 class="card-title">Card Title</h5>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi laborum odit harum vitae eos ad?</p>
+      </div>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">An item</li>
+        <li class="list-group-item">A second item</li>
+        <li class="list-group-item">A third item</li>
+      </ul>
+      <div class="card-body">
+        <a href="#" class="card-link">Card Link</a>
+        <a href="#" class="card-link">Card Link</a>
+      </div>
+
+    </div>
+  </div>
+
+  <br>
+
+  <div class="container border border-1 border-warning p-1">
+    <h5 class="text-center">Card with header and footer</h5>
+    <hr class="my-3">
+    <div class="card" style="width: 18rem;">
+      <h5 class="card-header">Featured</h5>
+      <div class="card-body">
+        <h5 class="card-title">Card Title</h5>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi laborum odit harum vitae eos ad?</p>
+      </div>
+      <div class="card-body">
+        <a href="#" class="card-link">Card Link</a>
+        <a href="#" class="card-link">Card Link</a>
+      </div>
+      <div class="card-footer">Footer</div>
+    </div>
+  </div>
+
+  <br>
+
+  <div class="container border border-1 border-warning p-1">
+    <h5 class="text-center">Quote</h5>
+    <hr class="my-3">
+    <div class="card">
+      <h5 class="card-header">Quote</h5>
+      <div class="card-body">
+        <blockquote class="blockquote mb-0">
+          <p>I can do everything. As gentle as it is,just as rough!!</p>
+          <footer class="blockquote-footer">Famous artist <cite title="Nasir Ahmed">Nasir</cite></footer>
+        </blockquote>
+      </div>
+
+    </div>
+  </div>
+
+  <br>
+
+  <div class="container border border-1 border-warning p-1">
+    <h5 class="text-center">Quote 2</h5>
+    <hr class="my-3">
+    <div class="card text-center">
+      <div class="card-header">Featured</div>
+      <div class="card-body">
+        <h5 class="card-title">About Nasir</h5>
+        <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt eius, qui quibusdam
+          maxime dignissimos quam!</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+      <div class="card-header">2 days ago</div>
+
+    </div>
+  </div>
+
+  <br>
+
+  <div class="container border border-1 border-warning p-1">
+    <h5 class="text-center">Card - Using grid markup</h5>
+    <hr class="my-3">
+    <div class="row g-3">
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Special Treatment</h5>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, doloribus ea? Ea temporibus mollitia
+              blanditiis.</p>
+            <a href="#" class="btn btn-primary">Visit Website</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Special Treatment</h5>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, doloribus ea? Ea temporibus mollitia
+              blanditiis.</p>
+            <a href="#" class="btn btn-primary">Visit Website</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Special Treatment</h5>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, doloribus ea? Ea temporibus mollitia
+              blanditiis.</p>
+            <a href="#" class="btn btn-primary">Visit Website</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Special Treatment</h5>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, doloribus ea? Ea temporibus mollitia
+              blanditiis.</p>
+            <a href="#" class="btn btn-primary">Visit Website</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <br>
+
+  <div class="container border border-1 border-warning p-1">
+    <h5 class=" text-center">Card with utilities</h5>
+    <hr class="my-3">
+    <div class="card w-75">
+      <div class="card-body">
+        <h5 class="card-title">Special Treatment</h5>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, doloribus ea? Ea temporibus mollitia
+          blanditiis.</p>
+        <a href="#" class="btn btn-primary">Visit Website</a>
+      </div>
+    </div>
+    <div class="card w-50">
+      <div class="card-body">
+        <h5 class="card-title">Special Treatment</h5>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, doloribus ea? Ea temporibus mollitia
+          blanditiis.</p>
+        <a href="#" class="btn btn-primary">Visit Website</a>
+      </div>
+    </div>
+  </div>
+
+  <br>
+
+  <div class="container border border-1 border-warning p-1">
+    <h5 class=" text-center">Card - Navigation - (tabs)</h5>
+    <hr class="my-3">
+    <div class="card text-center">
+      <div class="card-header">
+        <ul class="nav nav-tabs card-header-tabs">
+          <li class="nav-item">
+            <a href="#" class="nav-link active">Active</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Link</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link disabled">Disabled</a>
+          </li>
+        </ul>
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Special Treatment</h5>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, doloribus ea? Ea temporibus mollitia
+          blanditiis.</p>
+        <a href="#" class="btn btn-primary">Visit Website</a>
+      </div>
+    </div>
+  </div>
+
+  <br>
+
+  <div class="container border border-1 border-warning p-1">
+    <h5 class=" text-center">Card - Navigation - (pill)</h5>
+    <hr class="my-3">
+    <div class="card text-center">
+      <div class="card-header">
+        <ul class="nav nav-pills card-header-pills">
+          <li class="nav-item">
+            <a href="#" class="nav-link active">Active</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Link</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link disabled">Disabled</a>
+          </li>
+        </ul>
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Special Treatment</h5>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, doloribus ea? Ea temporibus mollitia
+          blanditiis.</p>
+        <a href="#" class="btn btn-primary">Visit Website</a>
+      </div>
+    </div>
+  </div>
+
+  <br>
+
+  <div class="container border border-1 border-warning p-1">
+    <h5 class=" text-center">Card - image caps</h5>
+    <hr class="my-3">
+
+    <div class="card mb-3">
+      <img class="card-img-top" height="200px" src="../images/cardmage.jpg" alt="" srcset="">
+      <div class="card-body">
+        <h5 class="card-title">Card Title</h5>
+        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, ex voluptatibus.
+          Deserunt suscipit numquam dolore quaerat asperiores unde a aliquam!</p>
+        <p class="card-text">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </p>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Card Title</h5>
+        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, ex voluptatibus.
+          Deserunt suscipit numquam dolore quaerat asperiores unde a aliquam!</p>
+        <p class="card-text">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </p>
+      </div>
+      <img class="card-img-bottom" height="200px" src="../images/cardmage.jpg" alt="" srcset="">
+    </div>
+
+  </div>
+
+
+  <br>
+
+  <div class="container border border-1 border-warning p-1">
+    <h5 class=" text-center">Card - image overlays</h5>
+    <hr class="my-3">
+
+    <div class="card">
+      <img class="card-img" height="200px" src="../images/cardmage.jpg" alt="" srcset="">
+      <div class="card-img-overlay">
+        <h5 class="card-title">Card Title</h5>
+        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, ex voluptatibus.
+          Deserunt suscipit numquam dolore quaerat asperiores unde a aliquam!</p>
+        <p class="card-text">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </p>
+      </div>
+    </div>
+
+  </div>
+
+
+  <br>
+
+  <div class="container border border-1 border-warning p-1">
+    <h5 class=" text-center">Card - image horizontals</h5>
+    <hr class="my-3">
+
+    <div class="card">
+      <div class="row">
+        <div class="col-md-12 col-lg-4">
+          <img src="../images/cardmage.jpg" class="img-fluid rounded-start w-100">
+        </div>
+        <div class="col-md-12 col-lg-8">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+              content. This content is a little bit longer.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+  <br>
+
+  <div class="container border border-1 border-warning p-1">
+    <h5 class=" text-center">Card - Styles</h5>
+    <hr class="my-3">
+
+    <div class="row g-2">
+      <div class="col-4">
+        <div class="card bg-primary text-white">
+          <div class="card-header">
+            Header
+          </div>
+          <div class="card-body">
+            <h5>Primary Card Title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="card bg-secondary text-white">
+          <div class="card-header">
+            Header
+          </div>
+          <div class="card-body">
+            <h5>Secondary Card Title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="card bg-success text-white">
+          <div class="card-header">
+            Header
+          </div>
+          <div class="card-body">
+            <h5>Success Card Title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="card bg-danger text-white">
+          <div class="card-header">
+            Header
+          </div>
+          <div class="card-body">
+            <h5>Danger Card Title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="card bg-warning text-dark">
+          <div class="card-header">
+            Header
+          </div>
+          <div class="card-body">
+            <h5>Warning Card Title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="card bg-info text-dark">
+          <div class="card-header">
+            Header
+          </div>
+          <div class="card-body">
+            <h5>Info Card Title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="card bg-light text-dark">
+          <div class="card-header">
+            Header
+          </div>
+          <div class="card-body">
+            <h5>Light Card Title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="card bg-dark text-white">
+          <div class="card-header">
+            Header
+          </div>
+          <div class="card-body">
+            <h5>Dark Card Title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <br>
+
+  <div class="container border border-1 border-warning p-1">
+    <h5 class=" text-center">Card - Styles (outline)</h5>
+    <hr class="my-3">
+
+    <div class="row g-2">
+      <div class="col-4">
+        <div class="card border-primary">
+          <div class="card-header">
+            Header
+          </div>
+          <div class="card-body">
+            <h5>Primary Card Title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="card border-secondary">
+          <div class="card-header">
+            Header
+          </div>
+          <div class="card-body">
+            <h5>Secondary Card Title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="card border-success">
+          <div class="card-header">
+            Header
+          </div>
+          <div class="card-body">
+            <h5>Success Card Title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="card border-danger">
+          <div class="card-header">
+            Header
+          </div>
+          <div class="card-body">
+            <h5>Danger Card Title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="card border-warning">
+          <div class="card-header">
+            Header
+          </div>
+          <div class="card-body">
+            <h5>Warning Card Title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="card border-info">
+          <div class="card-header">
+            Header
+          </div>
+          <div class="card-body">
+            <h5>Info Card Title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="card border-light">
+          <div class="card-header">
+            Header
+          </div>
+          <div class="card-body">
+            <h5>Light Card Title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="card border-dark">
+          <div class="card-header">
+            Header
+          </div>
+          <div class="card-body">
+            <h5>Dark Card Title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="card border-success">
+          <div class="card-header bg-transparent border-success">
+            Header
+          </div>
+          <div class="card-body text-success">
+            <h5>Dark Card Title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+              content.</p>
+          </div>
+          <div class="card-footer bg-transparent border-success">
+            Footer
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!-- Container End -->
+
+
+  <!-- Scripts start -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
+  <!-- Scripts end -->
+</body>
+
+</html>
